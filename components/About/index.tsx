@@ -1,9 +1,9 @@
 "use client";
 import Image from "next/image";
-import { numberFont } from "@/app/page";
 import React from "react";
 import Zoom from "react-reveal/Zoom";
 import { useTranslation } from "react-i18next";
+import { numberFont } from "@/app/layout";
 
 const About = () => {
   const { t } = useTranslation();
