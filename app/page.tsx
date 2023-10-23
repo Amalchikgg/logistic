@@ -10,9 +10,6 @@ import Form from "@/components/Form";
 import Footer from "@/components/Footer";
 import { useTranslation } from "react-i18next";
 
-export const numberFont = CustomFont({
-  src: "./SFPRODISPLAYBOLD.ttf",
-});
 export default function Home() {
   const { t } = useTranslation();
   const questions = [
