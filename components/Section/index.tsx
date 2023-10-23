@@ -1,9 +1,9 @@
 "use client";
-import { numberFont } from "@/app/page";
 import React from "react";
 import LinkScroll from "../Link";
 import Zoom from "react-reveal/Zoom";
 import { useTranslation } from "react-i18next";
+import { numberFont } from "@/app/layout";
 
 const Section = () => {
   const { t } = useTranslation();
